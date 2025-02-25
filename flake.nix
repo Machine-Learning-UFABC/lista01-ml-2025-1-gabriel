@@ -17,6 +17,7 @@
           pkgs.rPackages.knitr
           pkgs.rPackages.tibble
           pkgs.rPackages.printr
+          pkgs.rPackages.tidyverse
         ]; 
       };
     in 
