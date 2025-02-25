@@ -1,11 +1,8 @@
 ---
 title: "Solução Lista 01"
 author: |
-        | Nome: Fulano de Tal
-        | E-mail: fdt@aluno.ufabc.edu.br
-        | Nome: Fulano de Tal
-        | E-mail: fdt@aluno.ufabc.edu.br
-        | (Não é preciso informar os RAs)
+        | Nome: Gabriel Jorge Menezes
+        | E-mail: g.jorge@aluno.ufabc.edu.br
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: pdf_document
 ---
@@ -18,6 +15,12 @@ knitr::opts_chunk$set(echo = T,
                       out.heigth = "60%",
                       warning=FALSE,
                       message=FALSE)
+
+library(ggplot2)
+library(tibble)
+library(dplyr)
+library(printr)
+
 options(width =70)
 ```
 
